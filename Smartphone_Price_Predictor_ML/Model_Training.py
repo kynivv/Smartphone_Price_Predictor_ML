@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import explained_variance_score as evs
 
-from sklearn.ensemble import RandomForestRegressor, BaggingRegressor, StackingRegressor, HistGradientBoostingRegressor
+from sklearn.ensemble import RandomForestRegressor, BaggingRegressor, HistGradientBoostingRegressor
 
 # Data Import
 df = pd.read_csv('mobile_prices_2023.csv')
